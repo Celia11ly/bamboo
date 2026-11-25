@@ -149,21 +149,36 @@
   }
 
   function renderCredentials(d) {
-    $("#credentialsGrid").innerHTML = d.credentials.items
-      .map(
-        (item) => `
-        <article class="credential-card">
-          <div>
-            <span class="cred-tag">${item.tag}</span>
-            <h3>${item.title}</h3>
-            <p>${item.desc}</p>
-          </div>
-          <div class="cred-pills">
-            ${item.highlights.map((h) => `<span class="cred-pill">${h}</span>`).join("")}
-          </div>
-        </article>`
-      )
-      .join("");
+    const item = d.credentials.item;
+    $("#credentialsGrid").innerHTML = `
+      <div class="sample-media-grid">
+        <div class="sample-photo">
+          <img src="${item.img}" alt="${item.title}" loading="lazy">
+        </div>
+        <div class="sample-photo">
+          <img src="${item.img2}" alt="${item.title}" loading="lazy">
+        </div>
+        <div class="sample-photo">
+          <img src="assets/images/la-wilshire-building.jpg" alt="6420 Wilshire Blvd" loading="lazy">
+        </div>
+      </div>
+      <div class="sample-copy">
+        <span class="cred-tag" style="display:inline-block;font-size:0.7rem;font-weight:700;letter-spacing:0.14em;color:var(--gold);margin-bottom:12px;">${item.tag}</span>
+        <h3>${item.title}</h3>
+        <p>${item.desc}</p>
+        <div class="sample-pillars">
+          ${item.highlights
+            .map(
+              (h) => `
+            <div class="sample-pillar">
+              <h4>${h.h}</h4>
+              <p>${h.p}</p>
+            </div>`
+            )
+            .join("")}
+        </div>
+      </div>
+    `;
   }
 
   function renderTimeline(d) {
@@ -195,6 +210,7 @@
 
   function renderServices(d) {
     const tabs = d.services.tabs;
+    if (state.serviceIdx >= tabs.length) state.serviceIdx = 0;
     const tabsWrap = $("#servicesTabs");
     tabsWrap.innerHTML = tabs
       .map(
@@ -211,27 +227,24 @@
       <div class="service-panel-body">
         <h3>${active.title}</h3>
         <p class="service-lead">${active.lead}</p>
-        <div class="service-bullets">
-          ${active.bullets
-            .map(
-              (b) => `
-            <div class="service-bullet">
-              <h4>${b.h}</h4>
-              <p>${b.p}</p>
-            </div>`
-            )
-            .join("")}
+        <ul class="service-list-clean">
+          ${active.bullets.map((b) => `<li>${b}</li>`).join("")}
+        </ul>
+        <div class="service-inline-stat">
+          <span class="service-stat-val">${active.statVal}</span>
+          <span class="service-stat-label">${active.statLabel}</span>
         </div>
       </div>
-      <div class="service-panel-visual">
-        <img src="${active.img}" alt="${active.imgCaption}" loading="lazy">
-        <div class="service-stat-badge">
-          <div>
-            <div class="service-stat-val">${active.statVal}</div>
-            <div class="service-stat-label">${active.statLabel}</div>
-          </div>
-          <span style="font-size: 0.72rem; color: var(--ink-light-subtle); max-width: 170px; text-align: right;">${active.imgCaption}</span>
-        </div>
+      <div class="service-gallery">
+        ${active.gallery
+          .map(
+            (g) => `
+          <div class="service-photo-card">
+            <img src="${g.img}" alt="${g.cap}" loading="lazy">
+            <div class="service-photo-cap">${g.cap}</div>
+          </div>`
+          )
+          .join("")}
       </div>
     `;
 

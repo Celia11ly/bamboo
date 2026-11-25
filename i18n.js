@@ -39,35 +39,21 @@ window.BAMBOO_I18N = {
       kpi4Label: "LA Livestream & Sample Base"
     },
     credentials: {
-      eyebrow: "OFFICIAL ACCREDITATION",
-      title: "Certified Across the Entire TikTok Commerce Ecosystem",
-      subtitle: "Direct platform alignment across North America, the UK, and Southeast Asia—combining Tier-1 media privileges with local US execution.",
-      items: [
-        {
-          tag: "TIER-1 AGENCY",
-          title: "TikTok Ads Official Partner",
-          desc: "First-tier agency authorization for TikTok, Google, and Kwai. End-to-end ad account onboarding, top-up, diagnostics, and ROAS-driven managed media buying.",
-          highlights: ["Account Opening & Top-Up", "Competitive Media Buying"]
-        },
-        {
-          tag: "US · UK · SEA",
-          title: "TikTok Shop Partner (TSP)",
-          desc: "Multi-category official TSP across the US, UK, and Southeast Asia—incubating stores from zero to sustained category leadership.",
-          highlights: ["Shop & Account Operations", "Video & Live Production"]
-        },
-        {
-          tag: "GLOBAL REACH",
-          title: "MCN / Affiliate Partner (TAP)",
-          desc: "Certified TikTok Affiliate Partner across all open markets with 10,000+ vetted KOL & KOC relationships for rapid, measurable product seeding.",
-          highlights: ["Creator Matchmaking", "High-Volume Delivery"]
-        },
-        {
-          tag: "LOS ANGELES",
-          title: "Offline Sample Center",
-          desc: "Physical creator showroom in Beverly Hills where US influencers and livestream hosts test products hands-on—cutting sample waste and accelerating deals.",
-          highlights: ["IP & KOC Incubation", "Real-Time Product Testing"]
-        }
-      ]
+      eyebrow: "LOS ANGELES OFFLINE HUB",
+      title: "US Local Sample Center",
+      subtitle: "A physical creator showroom in the heart of Beverly Hills—eliminating cross-border sample waste and connecting your products directly with US influencers and livestream hosts.",
+      item: {
+        tag: "6420 WILSHIRE BLVD · BEVERLY HILLS",
+        title: "Offline Sample Center",
+        desc: "Display your products in our Los Angeles flagship where vetted US creators and livestream hosts inspect, test, and film products in real time—accelerating creator matchmaking and brand trust.",
+        highlights: [
+          { h: "IP & KOC Incubation", p: "Direct face-to-face onboarding with local Los Angeles creators and emerging KOCs." },
+          { h: "Real-Time Product Testing", p: "Creators experience textures, sizing, and features on-site before going live or filming." },
+          { h: "Lower Sample Costs", p: "Centralized US inventory display cuts international shipping delays and unposted sample waste." }
+        ],
+        img: "assets/images/la-sample-team.jpg",
+        img2: "assets/images/la-lounge-studio.jpg"
+      }
     },
     journey: {
       eyebrow: "OUR HERITAGE · 2014 – 2024",
@@ -88,94 +74,66 @@ window.BAMBOO_I18N = {
       ]
     },
     services: {
-      eyebrow: "FULL-FUNNEL CAPABILITIES",
+      eyebrow: "CORE CAPABILITIES",
       title: "End-to-End Growth Architecture",
-      subtitle: "From US business compliance and storefront setup to viral short-video studios, 10K+ creator networks, and daily Beverly Hills livestreams.",
+      subtitle: "Focused on three core pillars: US TikTok Shop & Account Operations, 10K+ Creator Network, and our Beverly Hills Local Livestream Base.",
       tabs: [
         {
           id: "shop",
           num: "01",
           short: "Shop & Account Ops",
           title: "TikTok Shop & Brand Account Operations",
-          lead: "Dedicated senior operators tailor category-specific growth roadmaps backed by local market analytics and 24/7 operational execution.",
+          lead: "Dedicated senior operators manage US local business setup, storefront merchandising, organic short-video output, and 24/7 bilingual customer care.",
           bullets: [
-            { h: "US Compliance & Store Setup", p: "End-to-end US local business registration, TikTok Shop onboarding, logistics templates, and payment integration." },
-            { h: "Merchandising & Cross-Border Database", p: "Backed by China's largest cross-border marketing database—powering high-converting PDP optimization, product selection, and promotional calendars." },
-            { h: "Always-On Account Growth", p: "10+ tailored short videos monthly, creator-authorized spark content, storefront curation, and active community engagement." },
-            { h: "24/7 Customer & After-Sales Care", p: "Real-time bilingual customer support maximizing inquiry-to-order conversion and protecting store health metrics." }
+            "US compliance registration, local TikTok Shop onboarding & logistics setup",
+            "Merchandising & PDP optimization backed by China's largest cross-border database",
+            "10+ monthly short videos, authorized spark content & 24/7 customer support"
           ],
           statVal: "24/7",
           statLabel: "Dedicated Shop & Customer Ops",
-          img: "assets/images/la-sample-team.jpg",
-          imgCaption: "Multicultural operations & merchandising desk in Los Angeles"
-        },
-        {
-          id: "ads",
-          num: "02",
-          short: "Performance Media",
-          title: "Result-Driven TikTok Paid Media",
-          lead: "Repeatedly featured in TikTok's official best-practice showcases. Our senior media buyers turn viral momentum into predictable, scalable ROAS.",
-          bullets: [
-            { h: "Phase 1 · Testing (Days 1–7)", p: "10–15 new ad sets daily, 5–10 fresh creatives per SKU weekly, $100–$200/day controlled validation spend." },
-            { h: "Phase 2 · Ramp-Up (Days 7–14)", p: "20–40 new ad sets daily, 20–30 weekly creative iterations, $200–$500/day winning-hook acceleration." },
-            { h: "Phase 3 · Scaling (Day 14+)", p: "20+ daily campaigns, 20+ weekly creatives, $500+/day sustained profitable scaling with closed-loop data feedback." },
-            { h: "Full-Cycle Advisory", p: "Product selection, landing page strategy, SEO, creative iteration, and structured post-campaign review reports." }
-          ],
-          statVal: "5.2×",
-          statLabel: "Proven Campaign ROAS Benchmark",
-          img: "assets/images/la-skyline-desk.jpg",
-          imgCaption: "Data-driven optimization from our Wilshire Blvd media hub"
+          gallery: [
+            { img: "assets/images/la-sample-team.jpg", cap: "Los Angeles Merchandising & Operations Team" },
+            { img: "assets/images/la-skyline-desk.jpg", cap: "15th-Floor Wilshire Operations Desk" },
+            { img: "assets/images/la-wilshire-building.jpg", cap: "US Local Entity & Beverly Hills HQ" }
+          ]
         },
         {
           id: "creators",
-          num: "03",
+          num: "02",
           short: "Creator Network",
           title: "KOL / KOC Affiliate & Exposure Engine",
-          lead: "Scientific seeding meets authentic local storytelling. We match your products with native US creators who convert—not just generate vanity views.",
+          lead: "Scientific seeding meets authentic local storytelling—matching your products with 10,000+ vetted US creators who drive real conversions.",
           bullets: [
-            { h: "200+ Monthly Creator Videos", p: "Curated collaboration with 200+ vetted TikTok Shop creators per campaign for continuous social proof and affiliate GMV." },
-            { h: "Mega-Influencer Exposure Tiers", p: "Access to multi-million-follower talent with structured reach packages of 10M, 28M, or 60M+ guaranteed follower exposure." },
-            { h: "Strict 3-Pillar Creator Vetting", p: "Evaluated on high-trust delivery, cultural localization & resonance, and persona-to-product fit." },
-            { h: "Closed-Loop BD Funnel", p: "Competitor creator benchmarking, multi-round outreach, automated sample tracking, and high-velocity posting follow-up." }
+            "200+ selected TikTok creators delivering 200+ native videos per month",
+            "Mega-influencer exposure tiers: 10M / 28M / 60M guaranteed follower reach",
+            "Closed-loop BD outreach, sample tracking & high-trust local storytelling"
           ],
           statVal: "10K+",
           statLabel: "Active KOL & KOC Creator Roster",
-          img: "assets/images/case-footwear-hooks.jpg",
-          imgCaption: "Native US creator video hooks built for high thumb-stop rates"
-        },
-        {
-          id: "creative",
-          num: "04",
-          short: "Creative & AI Studio",
-          title: "Data-Driven Creative & Short-Video Studio",
-          lead: "Where platform data feeds creative direction. Our Golden 3-Second methodology and local US model roster engineer repeatable viral hits.",
-          bullets: [
-            { h: "The Golden 3-Second Formula", p: "Lead with the sharpest value proposition and visual payoff in the first 3 seconds—two sentences telling viewers exactly why to stay." },
-            { h: "4 Proven Viral Archetypes", p: "POV/Controversy text hooks, exaggerated before-and-after demos, entertainment-native storytelling, and scroll-stopping VFX." },
-            { h: "6-Step Scripted Production Workflow", p: "1. Set design → 2. Model & wardrobe casting → 3. Shot-list breakdown → 4. Framing & camera choreography → 5. Color & VFX post → 6. Client sign-off." },
-            { h: "Closed-Loop AI Creative Matrix", p: "Live ad performance data feeds directly back into creative briefs—iterating hooks and angles at scale." }
-          ],
-          statVal: "3 sec",
-          statLabel: "Golden Hook Retention Standard",
-          img: "assets/images/case-erommy-video.jpg",
-          imgCaption: "In-house US lifestyle set & native talent production"
+          gallery: [
+            { img: "assets/images/case-footwear-hooks.jpg", cap: "Native US Creator Video Hooks" },
+            { img: "assets/images/portfolio-vgo.jpg", cap: "Beauty Creator Campaigns · 10M Views" },
+            { img: "assets/images/portfolio-usrisepets.jpg", cap: "Lifestyle & Pet Creator Seeding" }
+          ]
         },
         {
           id: "livestream",
-          num: "05",
+          num: "03",
           short: "US Livestreaming",
           title: "Beverly Hills Local Livestream Base",
-          lead: "Broadcast directly from our 500+ m² Los Angeles studio with trained native hosts, tailored room sets, and disciplined post-stream analytics.",
+          lead: "Broadcast daily from our 500+ m² Los Angeles studio with trained English, Spanish, and French hosts across custom home, kitchen, and studio sets.",
           bullets: [
-            { h: "Multilingual Hosts & Training Academy", p: "In-house live streaming courses ensure our English, Spanish, and French hosts present products persuasively and close live orders at peak conversion." },
-            { h: "Modular Scene Environments", p: "Custom-built Kitchen, Living Room, Home Studio, and Warehouse backdrops tailored to your brand aesthetic." },
-            { h: "6-Stage Live Conversion Playbook", p: "Scene & persona matching → Warm-up → Feature breakdown → Differentiator spotlight → Flash offer → Lifestyle remarketing." },
-            { h: "Rigorous Post-Live Audits", p: "Structured review sheets analyzing GMV, CTR, shipping thresholds, promo codes, and next-session optimizations." }
+            "500+ m² studio running 15+ daily live sessions with $8,000+ daily GMV",
+            "In-house live streaming academy training EN / ES / FR native hosts",
+            "Modular kitchen, living-room & warehouse sets with disciplined post-live audits"
           ],
           statVal: "15+",
           statLabel: "Daily Live Sessions from LA",
-          img: "assets/images/la-livestream-studio.jpg",
-          imgCaption: "Dedicated broadcast suites overlooking Beverly Hills"
+          gallery: [
+            { img: "assets/images/la-livestream-studio.jpg", cap: "Broadcast-Grade Lighting Studio in LA" },
+            { img: "assets/images/bts-livestream-setup.jpg", cap: "Live Control Desk & Real-Time Offer Board" },
+            { img: "assets/images/host-outdoor-live.jpg", cap: "Native US Hosts in Live Product Demos" }
+          ]
         }
       ]
     },
@@ -462,7 +420,7 @@ window.BAMBOO_I18N = {
       tagline: "Full-Funnel Cross-Border & TikTok Commerce Growth Partner.",
       web: "US Brand Portal",
       wechat: "Official Handle",
-      rights: "© 2026 Bamboo Digital (元生竹乐 · Boosterize). All rights reserved."
+      rights: "© 2026 Bamboo Digital. All rights reserved."
     }
   },
   zh: {
@@ -504,35 +462,21 @@ window.BAMBOO_I18N = {
       kpi4Label: "洛杉矶本土直播样品基地"
     },
     credentials: {
-      eyebrow: "官方认证资质",
-      title: "全生态官方牌照护航品牌出海",
-      subtitle: "打通美国本土、英国及东南亚全链路官方资质，将一级媒体流量优势与美国本土落地执行深度融合。",
-      items: [
-        {
-          tag: "一级广告代理",
-          title: "TikTok Ads 官方一级代理",
-          desc: "TikTok、Google、Kwai 官方一级代理服务商，提供开户、充值、账户诊断、策略优化与效果代投一站式服务。",
-          highlights: ["官方开户 / 充值", "结果导向赛马代投"]
-        },
-        {
-          tag: "美区 · 英区 · 东南亚",
-          title: "TikTok Shop Partner (TSP)",
-          desc: "美国本土、英国、东南亚多类目官方认证 TSP，专注小店商家全流程孵化、账号代运营与本土直播代播。",
-          highlights: ["Shop / 账号全托管", "素材制作与直播代播"]
-        },
-        {
-          tag: "全开放站点",
-          title: "MCN / 达人撮合机构 (TAP)",
-          desc: "覆盖所有开放国家 TikTok Affiliate Partner 资质，坐拥 10,000+ 红人达人营销资源，加速品牌种草与销量爆发。",
-          highlights: ["商达精准建联", "规模化内容交付"]
-        },
-        {
-          tag: "洛杉矶线下枢纽",
-          title: "美国本土 Sample Center",
-          desc: "坐落洛杉矶比弗利核心区的线下达人选品聚集地，大幅降低寄样成本，让本土网红与主播现场体验、快速开播。",
-          highlights: ["IP / KOC 本土建设", "线下实景选品体验"]
-        }
-      ]
+      eyebrow: "洛杉矶线下枢纽",
+      title: "美国本土 Sample Center",
+      subtitle: "坐落洛杉矶比弗利核心区的线下达人选品聚集地，大幅降低跨境寄样成本，让美国本土网红与主播现场体验、快速开播。",
+      item: {
+        tag: "6420 WILSHIRE BLVD · 比弗利核心区",
+        title: "美国本土 Sample Center",
+        desc: "在我们的洛杉矶旗舰展厅实景陈列品牌商品，让美国本土红人与专业直播主播面对面看样、实测与拍摄，高效完成 IP/KOC 本土建设与极速转化。",
+        highlights: [
+          { h: "IP / KOC 本土建设", p: "直连洛杉矶本地活跃达人与潜力 KOC，面对面建立深度品牌合作关系。" },
+          { h: "线下实景选品体验", p: "达人与主播现场上手体验材质、功能与细节，显著提升内容真实感与出单率。" },
+          { h: "优化跨境样品成本", p: "美国本地集中陈列与周转样品，大幅减少跨国寄样损耗与等待周期。" }
+        ],
+        img: "assets/images/la-sample-team.jpg",
+        img2: "assets/images/la-lounge-studio.jpg"
+      }
     },
     journey: {
       eyebrow: "发展历程 · 2014 – 2024",
@@ -553,94 +497,66 @@ window.BAMBOO_I18N = {
       ]
     },
     services: {
-      eyebrow: "全链路核心服务",
+      eyebrow: "核心业务板块",
       title: "一站式出海增长解决方案",
-      subtitle: "涵盖美国本土合规开店、店铺与账号代运营、效果广告投放、万级达人种草、爆款短视频制作及洛杉矶本土直播。",
+      subtitle: "聚焦三大核心业务：TikTok 店铺与账号代运营、万级海外达人营销网络、以及洛杉矶比弗利本土直播基地。",
       tabs: [
         {
           id: "shop",
           num: "01",
           short: "店铺 / 账号代运营",
           title: "专业 TikTok 小店与品牌号代运营",
-          lead: "资深店铺运营团队结合当地市场数据与客户 ROI 目标，量身定制方案，提供 24 小时全流程一站式店铺托管服务。",
+          lead: "资深运营团队负责美国本土合规开店、商品基建优化、垂直短视频持续更新与 7×24 小时双语客服售后。",
           bullets: [
-            { h: "美国合规与本土开店", p: "协助美国本土公司合规注册、TikTok 本土小店入驻、物流模板配置及支付渠道对接。" },
-            { h: "商品基建与跨境营销数据库", p: "依托国内最大跨境营销数据库，指导产品页面精细优化、视觉图片升级、主推活动选品及促销优惠设置。" },
-            { h: "品牌账号持续运营", p: "每月 10+ 条垂直短视频持续更新、达人授权视频挂载、主页装修与评论/私信互动维护。" },
-            { h: "24/7 专业客服与售后", p: "实时专业客服响应提升询单转化率，高效处理退换货等售后问题，保障店铺健康评分。" }
+            "美国本土公司合规注册、TikTok 小店入驻及物流支付全流程对接",
+            "依托国内最大跨境营销数据库，精细化打磨商详页与促销活动",
+            "每月 10+ 条垂直短视频持续更新、达人授权挂载与 24/7 专业客服"
           ],
           statVal: "24/7",
           statLabel: "全天候中美协同运营支持",
-          img: "assets/images/la-sample-team.jpg",
-          imgCaption: "洛杉矶本土运营与选品策略团队日常复盘"
-        },
-        {
-          id: "ads",
-          num: "02",
-          short: "专业广告投放",
-          title: "结果导向的 TikTok 效果广告营销",
-          lead: "多次入选 TikTok 官方优秀案例。业内知名优化专家团队提供 7×24 小时投放支持与阶段性复盘，专注效果最大化。",
-          bullets: [
-            { h: "测试阶段（1–7 天）", p: "日均新建 10–15 条广告，单品每周上新 5–10 条素材，日均消耗 $100–$200 快速测款。" },
-            { h: "起步阶段（7–14 天）", p: "日均新建 20–40 条广告，单品每周上新 20–30 条素材，日均消耗 $200–$500 放大潜力素材。" },
-            { h: "扩量阶段（14 天+）", p: "日均新建 20+ 条广告，单品每周 20+ 条素材迭代，日均消耗 $500+ 稳定放量。" },
-            { h: "全程整合营销顾问", p: "覆盖选品策略、商详页优化、SEO、创意延展及定期深度复盘报告，确保达成增长目标。" }
-          ],
-          statVal: "5.2×",
-          statLabel: "实操标杆项目平均 ROAS",
-          img: "assets/images/la-skyline-desk.jpg",
-          imgCaption: "依托官方数据互通实现精准科学投放决策"
+          gallery: [
+            { img: "assets/images/la-sample-team.jpg", cap: "洛杉矶本土运营与选品策略团队" },
+            { img: "assets/images/la-skyline-desk.jpg", cap: "洛杉矶 15 楼比弗利景观办公区" },
+            { img: "assets/images/la-wilshire-building.jpg", cap: "美国本土实体与比弗利总部大厦" }
+          ]
         },
         {
           id: "creators",
-          num: "03",
+          num: "02",
           short: "达人营销资源",
           title: "海量 KOL / KOC 达人种草与变现",
-          lead: "海量多层次海外达人资源，“元生”帮你选对人，实现种拔度量科学化，由本土团队把控符合当地审美的演绎方向。",
+          lead: "坐拥 10,000+ 海外红人达人资源，通过科学种拔度量与本土团队把控，打造高转化原生带货内容。",
           bullets: [
-            { h: "200+ 精选达人月度交付", p: "单项目可快速联动 200+ 精选 TikTok 达人，月产 200+ 条原生带货视频，迅速拉升品牌声量。" },
-            { h: "千万级头部达人曝光套餐", p: "支持定制百万至千万粉丝级头部红人合作，提供 1000 万 / 2800 万 / 6000 万粉丝覆盖保障。" },
-            { h: "严苛三维达人筛选标准", p: "围绕强内容强口播强信任感、本地化专业化情感共鸣、精准人设与货品匹配度严格把关。" },
-            { h: "成熟达人建联转化漏斗", p: "竞品达人拆解、多轮 BD 建联、样品寄送追踪与履约深度跟进，确保稳定闭环产出。" }
+            "联动 200+ 精选 TikTok 达人，单月稳定产出 200+ 条原生带货视频",
+            "支持定制 1000 万 / 2800 万 / 6000 万粉丝覆盖保障的头部曝光套餐",
+            "成熟商达建联漏斗与样品追踪闭环，确保符合北美消费审美的真实演绎"
           ],
           statVal: "10K+",
           statLabel: "海外多层次红人达人库",
-          img: "assets/images/case-footwear-hooks.jpg",
-          imgCaption: "北美本土模特与达人高完播率钩子素材"
-        },
-        {
-          id: "creative",
-          num: "04",
-          short: "AI 创意与素材",
-          title: "数据驱动的 AI 创意与爆款短视频",
-          lead: "立足全球化视野，根据不同国家市场人文特点定制本地化创意策略，打通投放数据反哺内容生产的完整闭环。",
-          bullets: [
-            { h: "黄金三秒法则", p: "高诱惑力信息、最核心利益点与最精彩画面前置——开头 3 秒 2 句话讲清看完视频能获得什么。" },
-            { h: "四大爆品短视频模型", p: "覆盖文字型反问/POV、夸张对比效果展示、娱乐化趣味种草及强视觉特效四大成熟模板。" },
-            { h: "6 步标准化视频脚本拍摄流程", p: "1.场景设置 → 2.模特挑选与衣着 → 3.拆分拍摄场次 → 4.景别运镜与机位把控 → 5.后期制作 → 6.交付客户确认。" },
-            { h: "多面创意魔方闭环", p: "与官方实现数据互通，建站、投放与运营实操数据实时反哺创意生产，驱动素材持续迭代。" }
-          ],
-          statVal: "黄金 3 秒",
-          statLabel: "核心利益点前置完播标准",
-          img: "assets/images/case-erommy-video.jpg",
-          imgCaption: "美国本土实景与外模定制化短视频拍摄"
+          gallery: [
+            { img: "assets/images/case-footwear-hooks.jpg", cap: "北美本土模特与达人高转化短视频" },
+            { img: "assets/images/portfolio-vgo.jpg", cap: "美妆达人种草矩阵 · 1000万曝光" },
+            { img: "assets/images/portfolio-usrisepets.jpg", cap: "生活方式与智能宠物达人实测" }
+          ]
         },
         {
           id: "livestream",
-          num: "05",
+          num: "03",
           short: "美国本土直播",
           title: "洛杉矶比弗利专业本土直播基地",
-          lead: "500+ 平米实体直播与样品中心，配备英/西/法多语种本土主播与多场景直播间，让品牌在北美实现高转化实时带货。",
+          lead: "500+ 平米实体直播基地，配备英/西/法多语种本土主播与多主题实景直播间，每日稳定开播 15+ 场。",
           bullets: [
-            { h: "多语种本土主播与培训学院", p: "内置专业直播培训课程，培养英、西、法多语种本土主播，精通产品卖点放大、情绪调动与高转化逼单节奏。" },
-            { h: "多主题实景直播间", p: "内置厨房、客厅家居、仓储等多样化实景背景，支持按品牌调性定制软装与灯光。" },
-            { h: "六步直播间转化 SOP", p: "场景人设匹配 → 开场预热 → 基础讲解 → 核心差异放大 → 限时促销 → 生活场景再营销。" },
-            { h: "精细化场次复盘机制", p: "每场直播输出完整数据复盘表，针对运费策略、优惠码节奏与话术细节持续迭代。" }
+            "500+ 平米洛杉矶基地，日均直播 15+ 场、日均成交额超 $8,000",
+            "内部直播培训学院系统培养英、西、法多语种欧美本土带货主播",
+            "厨房、客厅家居、仓储等多主题实景切换 + 精细化单场复盘迭代"
           ],
           statVal: "15+ 场",
           statLabel: "美国基地日均稳定开播",
-          img: "assets/images/la-livestream-studio.jpg",
-          imgCaption: "洛杉矶 15 楼全景专业影视级灯光直播间"
+          gallery: [
+            { img: "assets/images/la-livestream-studio.jpg", cap: "洛杉矶影视级灯光专业直播间" },
+            { img: "assets/images/bts-livestream-setup.jpg", cap: "直播中控台与实时转化复盘现场" },
+            { img: "assets/images/host-outdoor-live.jpg", cap: "美国本土主播实景直播带货" }
+          ]
         }
       ]
     },
@@ -927,7 +843,7 @@ window.BAMBOO_I18N = {
       tagline: "专注从 0 到 1 的全链路出海营销综合解决方案供应商。",
       web: "美国官网",
       wechat: "官方账号",
-      rights: "© 2026 元生竹乐 Bamboo Digital (Boosterize). 保留所有权利。"
+      rights: "© 2026 元生竹乐 Bamboo Digital. 保留所有权利。"
     }
   }
 };
