@@ -23,6 +23,12 @@ window.BAMBOO_I18N = {
       ctaSecondary: "Explore Case Studies",
       scrollHint: "Scroll to explore",
       studioCaption: "Beverly Hills Studio · 6420 Wilshire Blvd, LA",
+      slides: [
+        { img: "assets/images/la-lounge-studio.jpg", caption: "Beverly Hills Studio · 6420 Wilshire Blvd, LA", badge: "US FLAGSHIP" },
+        { img: "assets/images/la-sample-team.jpg", caption: "Offline Sample Center & North America Strategy Team", badge: "SAMPLE HUB" },
+        { img: "assets/images/la-livestream-studio.jpg", caption: "Broadcast-Grade LA Livestream Suites · 15+ Live/Day", badge: "LIVE STUDIO" },
+        { img: "assets/images/la-wilshire-building.jpg", caption: "6420 Wilshire Blvd · Heart of Beverly Hills Corridor", badge: "LA HQ" }
+      ],
       kpi1Val: "10+",
       kpi1Label: "Years Cross-Border DNA",
       kpi2Val: "$40M+",
@@ -177,11 +183,44 @@ window.BAMBOO_I18N = {
       eyebrow: "CREATIVE METHODOLOGY",
       title: "How We Engineer Viral Short Videos",
       subtitle: "Golden 3 Seconds: Front-load the highest-value hook and most compelling visual frame—answering in two sentences what the viewer gains.",
+      timeline: [
+        { time: "00:00 – 00:01", title: "Visual Pattern Interrupt", desc: "Immediate motion, contrast, or scroll-stopping framing" },
+        { time: "00:01 – 00:03", title: "2-Sentence Value Promise", desc: "Crystal-clear payoff answering 'Why keep watching?'" },
+        { time: "00:03 – 00:30", title: "Proof & Native CTA", desc: "Live demo, social proof & frictionless TikTok Shop link" }
+      ],
       cards: [
-        { num: "01", title: "POV & Text Hooks", desc: "Rhetorical questions, relatable POV scenarios, and comment-driven curiosity loops that ignite organic debate." },
-        { num: "02", title: "Visual Proof & Contrast", desc: "Exaggerated stress tests, side-by-side comparisons, and instant functional demos that prove value without words." },
-        { num: "03", title: "Entertainment-Native", desc: "Blending humor, lifestyle storytelling, and trending formats seamlessly with product utility for native feed velocity." },
-        { num: "04", title: "Scroll-Stopping VFX", desc: "Dynamic transitions, crisp motion graphics, and tactile close-ups that elevate perceived brand quality." }
+        {
+          num: "01",
+          tag: "TEXT & POV",
+          img: "assets/images/case-footwear-hooks.jpg",
+          hook: "“If you struggle with uncomfortable sandals...”",
+          title: "POV & Text Hooks",
+          desc: "Rhetorical questions, relatable POV scenarios, and comment-driven curiosity loops that ignite organic debate."
+        },
+        {
+          num: "02",
+          tag: "VISUAL DEMO",
+          img: "assets/images/case-erommy-video.jpg",
+          hook: "“Watch this chair transform into a full bed in 3 sec”",
+          title: "Visual Proof & Contrast",
+          desc: "Exaggerated stress tests, side-by-side comparisons, and instant functional demos that prove value without words."
+        },
+        {
+          num: "03",
+          tag: "ENTERTAINMENT",
+          img: "assets/images/portfolio-usrisepets.jpg",
+          hook: "“Auto-sensing safety stop the moment your cat walks in”",
+          title: "Entertainment-Native",
+          desc: "Blending humor, pet/lifestyle storytelling, and trending formats seamlessly with product utility for organic feed velocity."
+        },
+        {
+          num: "04",
+          tag: "VISUAL IMPACT",
+          img: "assets/images/portfolio-fyssea.jpg",
+          hook: "“Bare-feel borderless magnetic snap — zero bulk”",
+          title: "Scroll-Stopping VFX",
+          desc: "Dynamic transitions, crisp motion graphics, and tactile close-ups that elevate perceived brand quality."
+        }
       ]
     },
     studio: {
@@ -449,6 +488,12 @@ window.BAMBOO_I18N = {
       ctaSecondary: "查看全链路案例",
       scrollHint: "向下滚动探索",
       studioCaption: "美国比弗利核心区基地 · 6420 Wilshire Blvd, LA",
+      slides: [
+        { img: "assets/images/la-lounge-studio.jpg", caption: "洛杉矶比弗利基地 · 6420 Wilshire Blvd, LA", badge: "美国旗舰基地" },
+        { img: "assets/images/la-sample-team.jpg", caption: "线下样品展厅与北美本土策略团队", badge: "样品中心" },
+        { img: "assets/images/la-livestream-studio.jpg", caption: "影视级灯光专业直播间 · 日均 15+ 场", badge: "本土直播" },
+        { img: "assets/images/la-wilshire-building.jpg", caption: "洛杉矶比弗利黄金走廊 · 6420 Wilshire 大厦", badge: "北美总部" }
+      ],
       kpi1Val: "10+",
       kpi1Label: "年跨境电商实战基因",
       kpi2Val: "$4000万+",
@@ -603,11 +648,44 @@ window.BAMBOO_I18N = {
       eyebrow: "爆款内容方法论",
       title: "如何更高效地拍出爆品短视频？",
       subtitle: "黄金三秒原则：高诱惑力信息、最核心利益点、最精彩画面前置 —— 开头 3 秒 2 句话，告诉清楚看完这条视频可以获得什么。",
+      timeline: [
+        { time: "00:00 – 00:01", title: "首帧视觉破冰", desc: "高反差动作、痛点画面或强视觉冲击瞬间留住滑动手指" },
+        { time: "00:01 – 00:03", title: "3 秒 2 句利益点", desc: "直白讲清看完视频能获得什么核心价值，拉高完播率" },
+        { time: "00:03 – 00:30", title: "实测证言与转化", desc: "产品优势直观演示 + 信任背书 + 小黄车丝滑促单" }
+      ],
       cards: [
-        { num: "01", title: "文字型 · POV / 反问", desc: "善用反问句、代入感 POV 场景与痛点/恶评引导，在首屏瞬间激发评论区互动与停留。" },
-        { num: "02", title: "效果展示 · 夸张对比", desc: "通过极具冲击力的实测实验与使用前后强烈对比，用直观画面建立不可置疑的产品信任。" },
-        { num: "03", title: "趣味内容 · 娱乐融合", desc: "将原生娱乐剧情与产品核心卖点巧妙融合，降低商业广告感，撬动更高自然流量推荐。" },
-        { num: "04", title: "特效型 · 视觉亮点", desc: "运用高质感转场、动态特效与微距特写强化视觉记忆点，全面提升品牌高级感。" }
+        {
+          num: "01",
+          tag: "文字型 · POV",
+          img: "assets/images/case-footwear-hooks.jpg",
+          hook: "“如果你一直被磨脚的凉鞋困扰…”",
+          title: "文字型 · POV / 反问",
+          desc: "善用反问句、代入感 POV 场景与痛点/恶评引导，在首屏瞬间激发评论区互动与停留。"
+        },
+        {
+          num: "02",
+          tag: "效果实测",
+          img: "assets/images/case-erommy-video.jpg",
+          hook: "“3 秒看单人沙发秒变舒适大床”",
+          title: "效果展示 · 夸张对比",
+          desc: "通过极具冲击力的实测实验与使用前后强烈对比，用直观画面建立不可置疑的产品信任。"
+        },
+        {
+          num: "03",
+          tag: "趣味种草",
+          img: "assets/images/portfolio-usrisepets.jpg",
+          hook: "“猫咪一靠近就自动感应暂停，安全感拉满”",
+          title: "趣味内容 · 娱乐融合",
+          desc: "将萌宠/生活趣味剧情与产品核心卖点巧妙融合，降低商业广告感，撬动更高自然流量推荐。"
+        },
+        {
+          num: "04",
+          tag: "视觉亮点",
+          img: "assets/images/portfolio-fyssea.jpg",
+          hook: "“裸机手感无边框磁吸，一秒吸附零负担”",
+          title: "特效型 · 视觉亮点",
+          desc: "运用高质感转场、动态特效与微距特写强化视觉记忆点，全面提升品牌高级感。"
+        }
       ]
     },
     studio: {

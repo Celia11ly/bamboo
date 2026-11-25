@@ -4,6 +4,8 @@
 
   const state = {
     lang: localStorage.getItem("bamboo_lang") || "en",
+    heroSlideIdx: 0,
+    heroTimer: null,
     timelineIdx: 10, // Default to latest 2024 Beverly Hills milestone
     serviceIdx: 0,
     portfolioFilter: "all",
@@ -65,6 +67,7 @@
       .join("");
     marketSelect.selectedIndex = Math.min(prevIdx, d.contact.form.markets.length - 1);
 
+    renderHeroCarousel(d);
     renderCredentials(d);
     renderTimeline(d);
     renderServices(d);
@@ -81,6 +84,70 @@
   /* ------------------------------------------------------------------
      Dynamic Section Renderers
      ------------------------------------------------------------------ */
+  function renderHeroCarousel(d) {
+    const slides = d.hero.slides;
+    const slidesWrap = $("#heroSlides");
+    const dotsWrap = $("#heroDots");
+
+    if (!slidesWrap.children.length) {
+      slidesWrap.innerHTML = slides
+        .map(
+          (s, idx) => `
+          <div class="hero-slide ${idx === state.heroSlideIdx ? "active" : ""}">
+            <img src="${s.img}" alt="${s.caption}" ${idx === 0 ? 'fetchpriority="high"' : 'loading="lazy"'}>
+          </div>`
+        )
+        .join("");
+
+      dotsWrap.innerHTML = slides
+        .map(
+          (_, idx) => `
+          <button type="button" class="hero-dot ${idx === state.heroSlideIdx ? "active" : ""}" data-hero-dot="${idx}" aria-label="Slide ${idx + 1}"></button>`
+        )
+        .join("");
+
+      $$("[data-hero-dot]", dotsWrap).forEach((dot) => {
+        dot.addEventListener("click", () => {
+          goHeroSlide(Number(dot.dataset.heroDot));
+        });
+      });
+    }
+
+    updateHeroSlideUI(d);
+  }
+
+  function updateHeroSlideUI(d) {
+    const slides = d.hero.slides;
+    const current = slides[state.heroSlideIdx];
+    $$(".hero-slide").forEach((el, idx) => {
+      el.classList.toggle("active", idx === state.heroSlideIdx);
+    });
+    $$(".hero-dot").forEach((el, idx) => {
+      el.classList.toggle("active", idx === state.heroSlideIdx);
+      el.setAttribute("aria-selected", String(idx === state.heroSlideIdx));
+    });
+    $("#heroSlideBadge").textContent = `● ${current.badge}`;
+    $("#heroSlideCaption").textContent = current.caption;
+  }
+
+  function goHeroSlide(idx) {
+    const len = getDict().hero.slides.length;
+    state.heroSlideIdx = (idx + len) % len;
+    updateHeroSlideUI(getDict());
+  }
+
+  function startHeroAutoplay() {
+    stopHeroAutoplay();
+    state.heroTimer = setInterval(() => goHeroSlide(state.heroSlideIdx + 1), 4800);
+  }
+
+  function stopHeroAutoplay() {
+    if (state.heroTimer) {
+      clearInterval(state.heroTimer);
+      state.heroTimer = null;
+    }
+  }
+
   function renderCredentials(d) {
     $("#credentialsGrid").innerHTML = d.credentials.items
       .map(
@@ -177,13 +244,33 @@
   }
 
   function renderFormula(d) {
+    $("#formulaTimeline").innerHTML = d.formula.timeline
+      .map(
+        (step) => `
+        <div class="ft-step">
+          <span class="ft-time">${step.time}</span>
+          <h4>${step.title}</h4>
+          <p>${step.desc}</p>
+        </div>`
+      )
+      .join("");
+
     $("#formulaGrid").innerHTML = d.formula.cards
       .map(
         (c) => `
         <article class="formula-card">
-          <div class="formula-num">${c.num}</div>
-          <h4>${c.title}</h4>
-          <p>${c.desc}</p>
+          <div class="formula-media">
+            <img src="${c.img}" alt="${c.title}" loading="lazy">
+            <div class="formula-media-top">
+              <span class="formula-num">${c.num}</span>
+              <span class="formula-tag">${c.tag}</span>
+            </div>
+            <div class="formula-hook">${c.hook}</div>
+          </div>
+          <div class="formula-body">
+            <h4>${c.title}</h4>
+            <p>${c.desc}</p>
+          </div>
         </article>`
       )
       .join("");
@@ -447,6 +534,20 @@
      ------------------------------------------------------------------ */
   function init() {
     applyTranslations();
+
+    // Hero carousel controls & hover pause
+    $("#heroPrev").addEventListener("click", () => {
+      goHeroSlide(state.heroSlideIdx - 1);
+      startHeroAutoplay();
+    });
+    $("#heroNext").addEventListener("click", () => {
+      goHeroSlide(state.heroSlideIdx + 1);
+      startHeroAutoplay();
+    });
+    const carousel = $("#heroCarousel");
+    carousel.addEventListener("mouseenter", stopHeroAutoplay);
+    carousel.addEventListener("mouseleave", startHeroAutoplay);
+    startHeroAutoplay();
 
     // Language switcher
     $$(".lang-btn").forEach((btn) => {
