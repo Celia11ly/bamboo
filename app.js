@@ -1,9 +1,12 @@
-/* Bamboo Digital / 元生竹乐 — Interactive Application Logic */
+/* BAMBOO — Interactive Application Logic */
 (function () {
   "use strict";
 
+  const SUPPORTED_LANGS = ["en", "ja", "fr", "zh"];
+  const savedLang = localStorage.getItem("bamboo_lang");
+
   const state = {
-    lang: localStorage.getItem("bamboo_lang") || "en",
+    lang: SUPPORTED_LANGS.includes(savedLang) ? savedLang : "en",
     heroSlideIdx: 0,
     heroTimer: null,
     timelineIdx: 10, // Default to latest 2024 Beverly Hills milestone
@@ -36,7 +39,7 @@
      ------------------------------------------------------------------ */
   function applyTranslations() {
     const d = getDict();
-    document.documentElement.lang = state.lang === "zh" ? "zh" : "en";
+    document.documentElement.lang = state.lang;
     document.title = d.meta.title;
     const metaDesc = $('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute("content", d.meta.description);
@@ -47,12 +50,9 @@
       if (typeof val === "string") el.textContent = val;
     });
 
-    // Language toggle buttons
-    $$(".lang-btn").forEach((btn) => {
-      const active = btn.dataset.lang === state.lang;
-      btn.classList.toggle("active", active);
-      btn.setAttribute("aria-pressed", String(active));
-    });
+    // Language dropdown sync
+    const langSelect = $("#langSelect");
+    if (langSelect) langSelect.value = state.lang;
 
     // Form placeholders & select options
     $("#fName").placeholder = d.contact.form.namePh;
@@ -562,15 +562,17 @@
     carousel.addEventListener("mouseleave", startHeroAutoplay);
     startHeroAutoplay();
 
-    // Language switcher
-    $$(".lang-btn").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        if (state.lang === btn.dataset.lang) return;
-        state.lang = btn.dataset.lang;
+    // 4-Language dropdown switcher
+    const langSelect = $("#langSelect");
+    if (langSelect) {
+      langSelect.addEventListener("change", (e) => {
+        const nextLang = e.target.value;
+        if (!SUPPORTED_LANGS.includes(nextLang) || state.lang === nextLang) return;
+        state.lang = nextLang;
         localStorage.setItem("bamboo_lang", state.lang);
         applyTranslations();
       });
-    });
+    }
 
     // Timeline arrows
     $("#tlPrev").addEventListener("click", () => {

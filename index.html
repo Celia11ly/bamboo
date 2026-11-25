@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BAMBOO DIGITAL — Full-Funnel Global E-Commerce &amp; TikTok Shop Growth Partner</title>
-  <meta name="description" content="Bamboo Digital (Boosterize US) is an official TikTok Shop Partner, Tier-1 Ads Agency, and Los Angeles Livestream &amp; Sample Center helping global brands scale from 0 to 1.">
+  <title>BAMBOO — Global Social Commerce &amp; TikTok Shop Growth Partner</title>
+  <meta name="description" content="BAMBOO is a Los Angeles-based social commerce partner, Sample Center, creator network, and livestream studio helping global brands scale from 0 to 1.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Noto+Sans+JP:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body>
   <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
@@ -16,8 +16,8 @@
   <!-- Navigation -->
   <header class="site-header" id="siteHeader">
     <div class="container nav-inner">
-      <a href="#top" class="brand-logo" aria-label="Bamboo Digital Home">
-        <!-- Faithful SVG recreation of Bamboo Digital's gold wordmark with upward arrow in 'A' -->
+      <a href="#top" class="brand-logo" aria-label="BAMBOO Home">
+        <!-- SVG wordmark of BAMBOO with rising growth arrow in 'A' -->
         <svg class="brand-wordmark" viewBox="0 0 218 36" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BAMBOO">
           <!-- B -->
           <path d="M2 5H17.5C22.4 5 25.5 7.5 25.5 11.7C25.5 14.5 24 16.5 21.6 17.5C24.7 18.4 26.6 20.8 26.6 24.1C26.6 28.8 23.1 31.5 17.7 31.5H2V5ZM8.2 15.3H16.2C18.3 15.3 19.5 14.3 19.5 12.6C19.5 10.8 18.3 9.9 16.2 9.9H8.2V15.3ZM8.2 26.5H16.8C19.2 26.5 20.5 25.4 20.5 23.4C20.5 21.5 19.2 20.4 16.8 20.4H8.2V26.5Z" fill="#E4CB96"/>
@@ -34,12 +34,11 @@
           <!-- O -->
           <path d="M196 4.4C204.4 4.4 210.6 10.2 210.6 18.2C210.6 26.3 204.4 32.1 196 32.1C187.6 32.1 181.4 26.3 181.4 18.2C181.4 10.2 187.6 4.4 196 4.4ZM196 9.9C191.1 9.9 187.8 13.4 187.8 18.2C187.8 23.1 191.1 26.6 196 26.6C200.9 26.6 204.2 23.1 204.2 18.2C204.2 13.4 200.9 9.9 196 9.9Z" fill="#E4CB96"/>
         </svg>
-        <span class="brand-sub">DIGITAL<br>元生竹乐</span>
       </a>
 
       <nav aria-label="Primary">
         <ul class="nav-links" id="navLinks">
-          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#about" data-i18n="nav.about">Sample Center</a></li>
           <li><a href="#capabilities" data-i18n="nav.capabilities">Capabilities</a></li>
           <li><a href="#studio" data-i18n="nav.studio">LA Studio</a></li>
           <li><a href="#cases" data-i18n="nav.cases">Case Studies</a></li>
@@ -49,9 +48,17 @@
       </nav>
 
       <div class="nav-actions">
-        <div class="lang-toggle" role="group" aria-label="Language switcher">
-          <button type="button" class="lang-btn active" data-lang="en">EN</button>
-          <button type="button" class="lang-btn" data-lang="zh">中文</button>
+        <div class="lang-select-wrap">
+          <svg class="lang-globe" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <select id="langSelect" class="lang-select" aria-label="Select Language">
+            <option value="en">English</option>
+            <option value="ja">日本語</option>
+            <option value="fr">Français</option>
+            <option value="zh">中文</option>
+          </select>
         </div>
         <a href="#contact" class="btn btn-gold btn-sm nav-cta-desktop" data-i18n="nav.cta">Partner With Us</a>
         <button type="button" class="menu-toggle" id="menuToggle" aria-label="Toggle Menu" aria-expanded="false">
@@ -67,7 +74,7 @@
 
   <main id="top">
     <!-- Full-Bleed Cinematic Background Hero -->
-    <section class="hero" id="heroCarousel" aria-roledescription="carousel" aria-label="Bamboo Digital Los Angeles Studio">
+    <section class="hero" id="heroCarousel" aria-roledescription="carousel" aria-label="BAMBOO Los Angeles Studio">
       <div class="hero-bg-slides" id="heroSlides" aria-hidden="true"></div>
       <div class="hero-scrim" aria-hidden="true"></div>
 
@@ -189,7 +196,7 @@
     <section class="section section-dark" id="studio">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-eyebrow" data-i18n="studio.eyebrow">LOS ANGELES FLAGSHIP · BOOSTERIZE US</span>
+          <span class="section-eyebrow" data-i18n="studio.eyebrow">LOS ANGELES FLAGSHIP</span>
           <h2 class="section-title" data-i18n="studio.title">Inside Our Beverly Hills Studio &amp; Sample Center</h2>
           <p class="section-subtitle" data-i18n="studio.subtitle"></p>
         </div>
@@ -269,7 +276,7 @@
 
               <div class="form-grid">
                 <div class="field">
-                  <label for="fEmail" data-i18n="contact.form.email">Work Email or WeChat</label>
+                  <label for="fEmail" data-i18n="contact.form.email">Work Email</label>
                   <input id="fEmail" name="email" type="text" required autocomplete="email">
                 </div>
                 <div class="field">
@@ -323,17 +330,17 @@
         </div>
 
         <div class="footer-links">
-          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#about" data-i18n="nav.about">Sample Center</a>
           <a href="#capabilities" data-i18n="nav.capabilities">Capabilities</a>
           <a href="#studio" data-i18n="nav.studio">LA Studio</a>
           <a href="#cases" data-i18n="nav.cases">Case Studies</a>
-          <a href="https://boosterize.com/" target="_blank" rel="noopener noreferrer">boosterize.com ↗</a>
+          <a href="#packages" data-i18n="nav.packages">Plans</a>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <span data-i18n="footer.rights">© 2026 Bamboo Digital. All rights reserved.</span>
-        <span>@元生竹乐 · Los Angeles · Shanghai</span>
+        <span data-i18n="footer.rights">© 2026 BAMBOO. All rights reserved.</span>
+        <span data-i18n="footer.location">Los Angeles, CA · Beverly Hills</span>
       </div>
     </div>
   </footer>
@@ -368,7 +375,7 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-  <script src="i18n.js?v=4"></script>
-  <script src="app.js?v=4"></script>
+  <script src="i18n.js?v=5"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>
