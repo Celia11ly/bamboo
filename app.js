@@ -70,8 +70,10 @@
     renderServices(d);
     renderFormula(d);
     renderStudio(d);
+    renderHosts(d);
     renderCases(d);
     renderPortfolio(d);
+    renderPackages(d);
     renderOffices(d);
     renderServiceChips(d);
   }
@@ -214,6 +216,56 @@
 
     $$("[data-lightbox-idx]", gal).forEach((btn) => {
       btn.addEventListener("click", () => openLightbox(Number(btn.dataset.lightboxIdx)));
+    });
+  }
+
+  function renderHosts(d) {
+    $("#hostsGrid").innerHTML = d.studio.hosts.cards
+      .map(
+        (h) => `
+        <article class="host-card">
+          <div class="host-media">
+            <img src="${h.img}" alt="${h.title}" loading="lazy">
+            <span class="host-tag">${h.tag}</span>
+          </div>
+          <div class="host-body">
+            <h4>${h.title}</h4>
+            <p>${h.desc}</p>
+          </div>
+        </article>`
+      )
+      .join("");
+  }
+
+  function renderPackages(d) {
+    const wrap = $("#packagesGrid");
+    wrap.innerHTML = d.packages.items
+      .map(
+        (pkg, idx) => `
+        <article class="package-card ${pkg.highlight ? "featured" : ""}">
+          <div>
+            <span class="package-badge">${pkg.badge}</span>
+            <h3>${pkg.name}</h3>
+            <p class="package-desc">${pkg.desc}</p>
+            <ul class="package-list">
+              ${pkg.features.map((f) => `<li>${f}</li>`).join("")}
+            </ul>
+          </div>
+          <button type="button" class="btn ${pkg.highlight ? "btn-gold" : "btn-outline-light"}" style="width: 100%;" data-pkg-idx="${idx}">
+            ${d.packages.cta} →
+          </button>
+        </article>`
+      )
+      .join("");
+
+    $$("[data-pkg-idx]", wrap).forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const pkg = d.packages.items[Number(btn.dataset.pkgIdx)];
+        state.selectedServices.clear();
+        pkg.chips.forEach((c) => state.selectedServices.add(c));
+        renderServiceChips(getDict());
+        $("#contact").scrollIntoView({ behavior: "smooth" });
+      });
     });
   }
 

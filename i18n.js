@@ -10,6 +10,7 @@ window.BAMBOO_I18N = {
       capabilities: "Capabilities",
       studio: "LA Studio",
       cases: "Case Studies",
+      packages: "Plans",
       contact: "Contact",
       cta: "Partner With Us"
     },
@@ -93,7 +94,7 @@ window.BAMBOO_I18N = {
           lead: "Dedicated senior operators tailor category-specific growth roadmaps backed by local market analytics and 24/7 operational execution.",
           bullets: [
             { h: "US Compliance & Store Setup", p: "End-to-end US local business registration, TikTok Shop onboarding, logistics templates, and payment integration." },
-            { h: "Merchandising & Campaigns", p: "High-converting PDP optimization, visual asset curation, flash-sale architecture, and promotional calendar management." },
+            { h: "Merchandising & Cross-Border Database", p: "Backed by China's largest cross-border marketing database—powering high-converting PDP optimization, product selection, and promotional calendars." },
             { h: "Always-On Account Growth", p: "10+ tailored short videos monthly, creator-authorized spark content, storefront curation, and active community engagement." },
             { h: "24/7 Customer & After-Sales Care", p: "Real-time bilingual customer support maximizing inquiry-to-order conversion and protecting store health metrics." }
           ],
@@ -145,7 +146,7 @@ window.BAMBOO_I18N = {
           bullets: [
             { h: "The Golden 3-Second Formula", p: "Lead with the sharpest value proposition and visual payoff in the first 3 seconds—two sentences telling viewers exactly why to stay." },
             { h: "4 Proven Viral Archetypes", p: "POV/Controversy text hooks, exaggerated before-and-after demos, entertainment-native storytelling, and scroll-stopping VFX." },
-            { h: "Local US Model Casting & Shoots", p: "Full scriptwriting, model profiling, on-set direction, color grading, and rapid post-production delivery." },
+            { h: "6-Step Scripted Production Workflow", p: "1. Set design → 2. Model & wardrobe casting → 3. Shot-list breakdown → 4. Framing & camera choreography → 5. Color & VFX post → 6. Client sign-off." },
             { h: "Closed-Loop AI Creative Matrix", p: "Live ad performance data feeds directly back into creative briefs—iterating hooks and angles at scale." }
           ],
           statVal: "3 sec",
@@ -160,7 +161,7 @@ window.BAMBOO_I18N = {
           title: "Beverly Hills Local Livestream Base",
           lead: "Broadcast directly from our 500+ m² Los Angeles studio with trained native hosts, tailored room sets, and disciplined post-stream analytics.",
           bullets: [
-            { h: "Multilingual Native Hosts", p: "Professionally trained English, Spanish, and French hosts skilled in high-energy product demonstration and live closing." },
+            { h: "Multilingual Hosts & Training Academy", p: "In-house live streaming courses ensure our English, Spanish, and French hosts present products persuasively and close live orders at peak conversion." },
             { h: "Modular Scene Environments", p: "Custom-built Kitchen, Living Room, Home Studio, and Warehouse backdrops tailored to your brand aesthetic." },
             { h: "6-Stage Live Conversion Playbook", p: "Scene & persona matching → Warm-up → Feature breakdown → Differentiator spotlight → Flash offer → Lifestyle remarketing." },
             { h: "Rigorous Post-Live Audits", p: "Structured review sheets analyzing GMV, CTR, shipping thresholds, promo codes, and next-session optimizations." }
@@ -198,9 +199,35 @@ window.BAMBOO_I18N = {
         { img: "assets/images/la-wilshire-building.jpg", title: "6420 Wilshire Blvd, Beverly Hills", cap: "Prime Class-A headquarters in Los Angeles' Miracle Mile" },
         { img: "assets/images/la-sample-team.jpg", title: "Offline Sample Center & Strategy Room", cap: "Hands-on product shelves for visiting creators & campaign reviews" },
         { img: "assets/images/la-livestream-studio.jpg", title: "Pro Lighting & Multi-Cam Live Room", cap: "Broadcast-grade Neewer lighting & dual-angle studio setups" },
-        { img: "assets/images/bts-livestream-setup.jpg", title: "Live Operations Control & Script Desk", cap: "Real-time TikTok Shop monitoring, offer boards & host cueing" }
+        { img: "assets/images/bts-livestream-setup.jpg", title: "Live Operations Control & Script Desk", cap: "Real-time TikTok Shop monitoring, offer boards & host cueing" },
+        { img: "assets/images/la-beverly-map.jpg", title: "Beverly Hills & Miracle Mile Corridor", cap: "Prime Wilshire Blvd location steps from Beverly Center & The Grove" }
       ],
-      clickHint: "Click any photo to inspect full resolution"
+      clickHint: "Click any photo to inspect full resolution",
+      hosts: {
+        eyebrow: "US NATIVE TALENT & TRAINING",
+        title: "Multilingual Livestream Hosts Built to Convert",
+        subtitle: "Trained through our in-house live streaming academy across English, Spanish, and French—combining authentic local charisma with structured product storytelling.",
+        cards: [
+          {
+            img: "assets/images/host-studio-portrait.jpg",
+            tag: "IN-STUDIO HOST",
+            title: "Lifestyle & Beauty Specialists",
+            desc: "High-trust native presenters trained in warm-up pacing, comment interaction, and live promo urgency."
+          },
+          {
+            img: "assets/images/host-outdoor-live.jpg",
+            tag: "OUTDOOR & TECH DEMO",
+            title: "Real-World Product Testing",
+            desc: "Hands-on outdoor and real-scenario demonstrations that prove durability and specs on camera in real time."
+          },
+          {
+            img: "assets/images/case-erommy-video.jpg",
+            tag: "HOME & FURNITURE SETS",
+            title: "Modular Living-Room Broadcasts",
+            desc: "Tailored kitchen, living-room, and warehouse sets engineered to convert high-ticket home & furniture SKUs."
+          }
+        ]
+      }
     },
     cases: {
       eyebrow: "PROVEN GROWTH RESULTS",
@@ -227,7 +254,7 @@ window.BAMBOO_I18N = {
             execution: [
               "Creative Production: Scripted lifestyle shoots showcasing the 3-in-1 convertible sleeper chair and woven criss-cross chair with relatable US hosts and clear functional differentiation.",
               "Paid Media Optimization: Delivered 5.2 average ROAS across $9,257.19 in 1.5 months of managed spend through rapid creative testing.",
-              "Beverly Hills Livestreaming: Built a warm, cohesive living-room set, paired agile native female hosts, highlighted unique woven backs & cup holders, and ran live free-shipping incentives—generating $11,906 GMV in a single 2-hour broadcast (Oct 7, 2024)."
+              "Beverly Hills Livestreaming: Built a warm, cohesive living-room set, paired agile native female hosts, highlighted unique woven backs & cup holders, and ran live free-shipping incentives—generating $11,906 GMV, 9 high-ticket orders, 12,900 viewers, and +47 new followers in a single 2-hour broadcast (Oct 7, 2024)."
             ],
             secondaryImg: "assets/images/bts-livestream-setup.jpg"
           }
@@ -302,6 +329,56 @@ window.BAMBOO_I18N = {
         }
       ]
     },
+    packages: {
+      eyebrow: "ENGAGEMENT MODELS",
+      title: "Flexible Partnerships Built for Every Stage of Scale",
+      subtitle: "Choose targeted modular execution or our signature All-Inclusive 0-to-1 Flagship combining US entity setup, 600+ creator assets, 30M+ exposure, and Beverly Hills offline sample display.",
+      cta: "Inquire About This Plan",
+      items: [
+        {
+          badge: "FOUNDATION",
+          name: "US Shop & Account Launch",
+          desc: "Ideal for brands entering TikTok Shop US that need compliant local infrastructure and steady organic momentum.",
+          highlight: false,
+          chips: [0],
+          features: [
+            "US local business & TikTok Shop compliance registration",
+            "Full store maintenance, PDP upgrades & inventory ops",
+            "Pre-sale campaigns, order processing & performance tracking",
+            "10+ tailored short videos/month + authorized spark content",
+            "24/7 bilingual customer service & community management"
+          ]
+        },
+        {
+          badge: "MODULAR GROWTH",
+          name: "Creator, Live & Paid Media",
+          desc: "Built for active sellers ready to accelerate GMV through vetted US creators, daily livestreams, and ROAS-focused ads.",
+          highlight: false,
+          chips: [1, 2, 3],
+          features: [
+            "200 vetted TikTok creators → 200+ native videos per month",
+            "Mega-influencer exposure tiers: 10M / 28M / 60M guaranteed reach",
+            "Multilingual US livestreaming (EN / ES / FR) + host courses",
+            "Kitchen, Home & Warehouse custom broadcast backdrops",
+            "3-phase TikTok Ads scaling with 24/7 senior media buyers"
+          ]
+        },
+        {
+          badge: "ALL-INCLUSIVE · FLAGSHIP",
+          name: "0-to-1 Turnkey Growth",
+          desc: "Our complete Boosterize & Bamboo Digital flagship uniting every channel, studio, and creator tier under one roof.",
+          highlight: true,
+          chips: [5],
+          features: [
+            "Complete US business + TikTok Shop setup & full operations",
+            "Content library from 600+ vetted TikTok influencers",
+            "Mega-creator exposure reaching 30M+ guaranteed followers",
+            "Physical product showcase in our Beverly Hills Sample Center",
+            "Integrated US local livestreaming & Tier-1 paid media scaling"
+          ]
+        }
+      ]
+    },
     contact: {
       eyebrow: "GLOBAL PRESENCE & INQUIRY",
       title: "Ready to Boost Your Growth?",
@@ -359,6 +436,7 @@ window.BAMBOO_I18N = {
       capabilities: "核心服务",
       studio: "美国基地",
       cases: "成功案例",
+      packages: "合作方案",
       contact: "联系我们",
       cta: "开启合作"
     },
@@ -442,7 +520,7 @@ window.BAMBOO_I18N = {
           lead: "资深店铺运营团队结合当地市场数据与客户 ROI 目标，量身定制方案，提供 24 小时全流程一站式店铺托管服务。",
           bullets: [
             { h: "美国合规与本土开店", p: "协助美国本土公司合规注册、TikTok 本土小店入驻、物流模板配置及支付渠道对接。" },
-            { h: "商品基建与营销活动", p: "产品页面精细优化、视觉图片升级、主推活动选品、店铺装修与促销优惠设置。" },
+            { h: "商品基建与跨境营销数据库", p: "依托国内最大跨境营销数据库，指导产品页面精细优化、视觉图片升级、主推活动选品及促销优惠设置。" },
             { h: "品牌账号持续运营", p: "每月 10+ 条垂直短视频持续更新、达人授权视频挂载、主页装修与评论/私信互动维护。" },
             { h: "24/7 专业客服与售后", p: "实时专业客服响应提升询单转化率，高效处理退换货等售后问题，保障店铺健康评分。" }
           ],
@@ -494,7 +572,7 @@ window.BAMBOO_I18N = {
           bullets: [
             { h: "黄金三秒法则", p: "高诱惑力信息、最核心利益点与最精彩画面前置——开头 3 秒 2 句话讲清看完视频能获得什么。" },
             { h: "四大爆品短视频模型", p: "覆盖文字型反问/POV、夸张对比效果展示、娱乐化趣味种草及强视觉特效四大成熟模板。" },
-            { h: "外模实景脚本拍摄", p: "全案内容策略、分镜脚本撰写、外模画像筛选、现场运镜指导及专业调色后期成片交付。" },
+            { h: "6 步标准化视频脚本拍摄流程", p: "1.场景设置 → 2.模特挑选与衣着 → 3.拆分拍摄场次 → 4.景别运镜与机位把控 → 5.后期制作 → 6.交付客户确认。" },
             { h: "多面创意魔方闭环", p: "与官方实现数据互通，建站、投放与运营实操数据实时反哺创意生产，驱动素材持续迭代。" }
           ],
           statVal: "黄金 3 秒",
@@ -509,7 +587,7 @@ window.BAMBOO_I18N = {
           title: "洛杉矶比弗利专业本土直播基地",
           lead: "500+ 平米实体直播与样品中心，配备英/西/法多语种本土主播与多场景直播间，让品牌在北美实现高转化实时带货。",
           bullets: [
-            { h: "英 / 西 / 法多语种本土主播", p: "专业培训的欧美本土主播团队，精通产品卖点放大、情绪调动与直播间逼单节奏。" },
+            { h: "多语种本土主播与培训学院", p: "内置专业直播培训课程，培养英、西、法多语种本土主播，精通产品卖点放大、情绪调动与高转化逼单节奏。" },
             { h: "多主题实景直播间", p: "内置厨房、客厅家居、仓储等多样化实景背景，支持按品牌调性定制软装与灯光。" },
             { h: "六步直播间转化 SOP", p: "场景人设匹配 → 开场预热 → 基础讲解 → 核心差异放大 → 限时促销 → 生活场景再营销。" },
             { h: "精细化场次复盘机制", p: "每场直播输出完整数据复盘表，针对运费策略、优惠码节奏与话术细节持续迭代。" }
@@ -547,9 +625,35 @@ window.BAMBOO_I18N = {
         { img: "assets/images/la-wilshire-building.jpg", title: "洛杉矶比弗利 6420 Wilshire 大厦", cap: "地处洛杉矶黄金商业走廊，毗邻比弗利山庄" },
         { img: "assets/images/la-sample-team.jpg", title: "线下样品展厅与北美策略团队", cap: "全品类样品实体陈列，方便本土达人现场选品试播" },
         { img: "assets/images/la-livestream-studio.jpg", title: "影视级灯光专业直播间", cap: "专业柔光箱、多机位与无遮挡洛杉矶城市天际线" },
-        { img: "assets/images/bts-livestream-setup.jpg", title: "直播中控台与实操复盘现场", cap: "实时监控 TikTok Shop 转化数据与手写卖点提词板" }
+        { img: "assets/images/bts-livestream-setup.jpg", title: "直播中控台与实操复盘现场", cap: "实时监控 TikTok Shop 转化数据与手写卖点提词板" },
+        { img: "assets/images/la-beverly-map.jpg", title: "比弗利山庄核心区位图", cap: "毗邻 Beverly Center 与 The Grove，洛杉矶 Wilshire 黄金走廊" }
       ],
-      clickHint: "点击任意实景照片查看大图"
+      clickHint: "点击任意实景照片查看大图",
+      hosts: {
+        eyebrow: "美国本土主播与实战培训",
+        title: "多语种本土主播矩阵，专攻直播高转化",
+        subtitle: "通过元生内部直播培训体系打造英、西、法多语种本土主播团队，兼具强感染力口播与成熟促单节奏。",
+        cards: [
+          {
+            img: "assets/images/host-studio-portrait.jpg",
+            tag: "室内精品直播",
+            title: "生活方式与美妆垂类主播",
+            desc: "熟悉北美消费心理，擅长开场预热、评论区高频互动与限时福利逼单。"
+          },
+          {
+            img: "assets/images/host-outdoor-live.jpg",
+            tag: "户外与数码实测",
+            title: "真实场景沉浸式测评",
+            desc: "走出棚内进行户外与真实使用场景实测演示，用直观效果拉升直播间停留与下单。"
+          },
+          {
+            img: "assets/images/case-erommy-video.jpg",
+            tag: "家居家具实景",
+            title: "高客单价大件场景化带货",
+            desc: "定制厨房、客厅家居与仓储实景，助力高客单价家具家居实现单场破万美金 GMV。"
+          }
+        ]
+      }
     },
     cases: {
       eyebrow: "全链路标杆战绩",
@@ -576,7 +680,7 @@ window.BAMBOO_I18N = {
             execution: [
               "产品素材脚本拍摄：从场景布置、外模衣着筛选到分镜运镜全流程定制，真实演绎三合一沙发床与手工编织盘腿椅核心功能差异。",
               "精细化广告代运营：1.5 个月投放周期累计消耗 $9,257.19 美金，通过高频测试与数据复盘实现 5.2 的优异平均 ROAS。",
-              "洛杉矶本土实景直播：搭建温馨浅色系客厅场景，搭配敏捷年轻女主播现场演示“躺看奥运会”等生活场景并叠加免运费促单，2024 年 10 月 7 日单场 2 小时斩获 12,900 场观与 $11,906 美金 GMV。"
+              "洛杉矶本土实景直播：搭建温馨浅色系客厅场景，搭配敏捷年轻女主播现场演示“躺看奥运会”等生活场景并叠加免运费促单，2024 年 10 月 7 日单场 2 小时斩获 12,900 场观、9 笔高客单价成交、$11,906 美金 GMV 及 47 位新增粉丝。"
             ],
             secondaryImg: "assets/images/bts-livestream-setup.jpg"
           }
@@ -648,6 +752,56 @@ window.BAMBOO_I18N = {
           stat1: "GMV +60%",
           stat2: "涨粉 15万+",
           desc: "围绕磁吸无边框手机壳产出 100 条质感短视频素材，实现品牌 GMV 暴涨 60% 与 15 万+ 新增粉丝。"
+        }
+      ]
+    },
+    packages: {
+      eyebrow: "合作模式与交付规格",
+      title: "匹配不同出海阶段的灵活合作方案",
+      subtitle: "既可按需选择模块化单项服务，也可选择元生竹乐旗舰 0-1 全包方案：一站式覆盖美国本土开店、600+ 达人素材、3000 万级曝光与比弗利线下样品陈列。",
+      cta: "咨询此合作方案",
+      items: [
+        {
+          badge: "基础起盘",
+          name: "美区小店与账号托管",
+          desc: "适合初次切入北美 TikTok Shop、需要快速打通本土合规基建与稳定自然流的出海品牌。",
+          highlight: false,
+          chips: [0],
+          features: [
+            "美国本土公司合规注册 + TikTok 本土小店入驻",
+            "店铺日常维护、商品详情页优化与库存管理",
+            "预售营销活动策划、订单处理与数据指标监控",
+            "每月 10+ 条垂直原创短视频 + 达人授权内容挂载",
+            "7×24 小时中美双语客服响应与社区评论私信运营"
+          ]
+        },
+        {
+          badge: "模块化爆发",
+          name: "达人种草 · 直播 · 付费扩量",
+          desc: "适合已有店铺基础、希望借助北美本土达人、日常直播与效果广告快速放大 GMV 的成熟卖家。",
+          highlight: false,
+          chips: [1, 2, 3],
+          features: [
+            "联动 200 位精选达人，月产 200+ 条本土带货视频",
+            "百万至千万粉头部红人曝光梯度：1000 万 / 2800 万 / 6000 万保障",
+            "英 / 西 / 法多语种洛杉矶本土直播 + 专业主播培训赋能",
+            "厨房、客厅家居、仓储等多主题实景直播间随需切换",
+            "三阶段 TikTok 效果广告放量 + 24 小时资深优化师护航"
+          ]
+        },
+        {
+          badge: "旗舰全案 · ALL-INCLUSIVE",
+          name: "0 到 1 全链路全包方案",
+          desc: "元生竹乐 × Boosterize 旗舰级全托管方案，打通建站开店、万级达人、线下展厅与流量投放完整闭环。",
+          highlight: true,
+          chips: [5],
+          features: [
+            "美国本土公司注册 + TikTok Shop 开店与全流程运营托管",
+            "600+ 海外红人达人内容素材库规模化产出",
+            "覆盖 3000 万+ 粉丝量级的头部达人联合曝光",
+            "产品入驻洛杉矶比弗利线下 Sample Center 供达人实景体验",
+            "无缝整合美国本土实景直播与一级代理效果广告扩量"
+          ]
         }
       ]
     },
