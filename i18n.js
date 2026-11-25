@@ -61,12 +61,12 @@ window.BAMBOO_I18N = {
         { year: "2015", tag: "DTC", title: "Furniture DTC Independent Site", desc: "Expanded into high-ticket home & furniture direct-to-consumer e-commerce with full brand positioning and fulfillment." },
         { year: "2016", tag: "North America", title: "Canada Subsidiary Founded", desc: "Established our North American corporate entity to localize warehousing, logistics, and customer operations." },
         { year: "2017", tag: "$40M Milestone", title: "$40M Annual Revenue & Agency Launch", desc: "Scaled self-operated e-commerce to $40M+ annual revenue and formally launched full-service brand management." },
-        { year: "2018", tag: "Global Hub", title: "APAC Strategy & Merchandising Hub", desc: "Expanded international brand strategy and merchandising operations to connect premier global manufacturers with Western consumers." },
-        { year: "2019", tag: "Media", title: "Global Media Buying Partnerships", desc: "Secured international paid media partnerships, laying the foundation for performance-driven customer acquisition." },
-        { year: "2020", tag: "TikTok Pivot", title: "Global Restructuring & TikTok Launch", desc: "Consolidated international entities and pioneered self-operated TikTok commerce ahead of the social shopping wave." },
-        { year: "2021", tag: "Services", title: "TikTok Agency Business Launched", desc: "Productized our TikTok playbook into full-service store, creator, and livestream solutions for global sellers." },
+        { year: "2018", tag: "Studio Expansion", title: "Brand Strategy & Merchandising Division", desc: "Expanded brand strategy, creative direction, and merchandising teams across North America to support scaling DTC labels." },
+        { year: "2019", tag: "Media", title: "Performance Media Partnerships", desc: "Secured premier digital media partnerships across leading US social and search platforms." },
+        { year: "2020", tag: "TikTok Pivot", title: "TikTok Commerce Launch", desc: "Pioneered self-operated TikTok commerce ahead of the US social shopping wave." },
+        { year: "2021", tag: "Services", title: "TikTok Agency Business Launched", desc: "Productized our TikTok playbook into full-service store, creator, and livestream solutions for ambitious brands." },
         { year: "2022", tag: "Full-Funnel", title: "TSP, TAP & MCN Ecosystem", desc: "Built full-chain TikTok partner capabilities uniting Shop Operations (TSP), Affiliate (TAP), and Creator Management (MCN)." },
-        { year: "2023", tag: "Tier-1", title: "Tier-1 Media Ecosystem Partner", desc: "Elevated to first-tier official agency status across TikTok, Google, and Kwai, unlocking direct platform insights." },
+        { year: "2023", tag: "Tier-1", title: "Tier-1 Media Ecosystem Partner", desc: "Elevated to premier agency partner status across TikTok, Google, and Meta, unlocking direct platform insights." },
         { year: "2024", tag: "Beverly Hills", title: "LA Sample Center & Livestream Base", desc: "Opened our 500+ m² Los Angeles flagship on Wilshire Blvd housing local operations, offline sample showroom, and live studios." }
       ]
     },
@@ -477,12 +477,12 @@ window.BAMBOO_I18N = {
         { year: "2015", tag: "DTC", title: "家具カテゴリーDTCサイト立ち上げ", desc: "高単価なホーム＆家具分野で自社DTCブランドとフルフィルメント体制を確立。" },
         { year: "2016", tag: "北米拡大", title: "カナダ法人を設立", desc: "北米拠点を設立し、現地倉庫・物流・カスタマーサポートのローカライズを推進。" },
         { year: "2017", tag: "年商$40M", title: "自社EC年商4,000万ドル突破・支援事業開始", desc: "自社EC事業が年商4,000万ドルを突破し、ブランド向け運営支援サービスを本格始動。" },
-        { year: "2018", tag: "グローバル", title: "APAC戦略・マーチャンダイジング拠点設立", desc: "国際的なブランド戦略と商品企画体制を拡充し、グローバル展開を加速。" },
-        { year: "2019", tag: "メディア", title: "グローバルメディア連携を拡大", desc: "海外主要プラットフォームとの広告パートナーシップを確立。" },
-        { year: "2020", tag: "TikTok参入", title: "海外事業再編・TikTokコマース開始", desc: "ソーシャルコマース黎明期にTikTok自社販売をいち早く開始。" },
+        { year: "2018", tag: "体制拡充", title: "ブランド戦略・マーチャンダイジング部門を新設", desc: "北米DTCブランドの成長を支える戦略立案と商品企画チームを拡充。" },
+        { year: "2019", tag: "メディア", title: "主要デジタルメディアとパートナー連携", desc: "北米主要プラットフォームとの広告パートナーシップを確立。" },
+        { year: "2020", tag: "TikTok参入", title: "TikTokコマース事業を開始", desc: "米国ソーシャルコマース黎明期にTikTok自社販売をいち早く開始。" },
         { year: "2021", tag: "サービス化", title: "TikTok運営支援サービスを本格提供", desc: "自社検証済みのノウハウを体系化し、店舗運営・クリエイター・ライブ支援を提供開始。" },
         { year: "2022", tag: "フルファネル", title: "TSP・TAP・MCN統合体制を構築", desc: "店舗運営（TSP）・アフィリエイト（TAP）・クリエイター管理（MCN）を一気通貫で統合。" },
-        { year: "2023", tag: "トップ認定", title: "主要プラットフォーム公式パートナー認定", desc: "TikTok・Google・Kwaiの公式上位パートナーとしてデータ連携を強化。" },
+        { year: "2023", tag: "トップ認定", title: "主要プラットフォーム公式パートナー認定", desc: "TikTok・Google・Metaの公式上位パートナーとしてデータ連携を強化。" },
         { year: "2024", tag: "ビバリーヒルズ", title: "LAサンプルセンター＆ライブ拠点開設", desc: "Wilshire Blvdに500㎡超のライブスタジオ兼オフラインサンプル拠点をオープン。" }
       ]
     },
@@ -893,12 +893,12 @@ window.BAMBOO_I18N = {
         { year: "2015", tag: "DTC", title: "Site DTC Mobilier & Maison", desc: "Développement dans le mobilier haut de gamme en vente directe aux consommateurs." },
         { year: "2016", tag: "Amérique du Nord", title: "Filiale au Canada", desc: "Création de notre entité nord-américaine pour localiser logistique et service client." },
         { year: "2017", tag: "Cap 40 M$", title: "40 M$ de revenus & lancement agence", desc: "Passage du cap des 40 M$ de GMV annuel en propre et ouverture de nos services aux marques partenaires." },
-        { year: "2018", tag: "Hub Global", title: "Pôle Stratégie & Merchandising APAC", desc: "Expansion de nos capacités stratégiques pour relier les meilleurs fabricants aux marchés occidentaux." },
-        { year: "2019", tag: "Médias", title: "Partenariats médias internationaux", desc: "Développement d'accords médias mondiaux pour l'acquisition de trafic à la performance." },
-        { year: "2020", tag: "Virage TikTok", title: "Restructuration & lancement TikTok", desc: "Pionniers du social commerce sur TikTok avec nos propres boutiques pilotes." },
-        { year: "2021", tag: "Services", title: "Lancement des services TikTok", desc: "Structuration de notre méthodologie en offre clé en main pour les marques internationales." },
+        { year: "2018", tag: "Expansion", title: "Pôle Stratégie de Marque & Merchandising", desc: "Développement de nos équipes stratégie et merchandising en Amérique du Nord pour accompagner les marques DTC." },
+        { year: "2019", tag: "Médias", title: "Partenariats médias à la performance", desc: "Accords stratégiques avec les principales plateformes digitales nord-américaines." },
+        { year: "2020", tag: "Virage TikTok", title: "Lancement TikTok Commerce", desc: "Pionniers du social commerce sur TikTok aux États-Unis avec nos propres boutiques pilotes." },
+        { year: "2021", tag: "Services", title: "Lancement des services TikTok", desc: "Structuration de notre méthodologie en offre clé en main pour les marques ambitieuses." },
         { year: "2022", tag: "Full-Funnel", title: "Écosystème TSP, TAP & MCN", desc: "Déploiement intégré des opérations boutique (TSP), affiliation (TAP) et gestion créateurs (MCN)." },
-        { year: "2023", tag: "Tier-1", title: "Partenaire officiel de premier rang", desc: "Accès direct aux équipes et données plateformes sur TikTok, Google et Kwai." },
+        { year: "2023", tag: "Tier-1", title: "Partenaire officiel de premier rang", desc: "Accès direct aux équipes et données plateformes sur TikTok, Google et Meta." },
         { year: "2024", tag: "Beverly Hills", title: "Sample Center & Studio Live à LA", desc: "Ouverture de notre flagship de 500+ m² sur Wilshire Blvd réunissant showroom et studios live." }
       ]
     },
@@ -1265,7 +1265,7 @@ window.BAMBOO_I18N = {
     hero: {
       titleLine1: "增长你的增长",
       titleLine2: "助力品牌从 0 到 1 全球爆发",
-      subtitle: "立足洛杉矶比弗利核心区，融合全链路店铺运营、万级海外达人生态与 500+ 平米本土直播样品基地，为全球品牌提供一站式 TikTok Shop 与社交电商增长解决方案。",
+      subtitle: "立足洛杉矶比弗利核心区，融合全链路店铺运营、万级北美达人生态与 500+ 平米本土直播样品基地，为全球品牌提供一站式 TikTok Shop 与社交电商增长解决方案。",
       ctaPrimary: "预约增长顾问",
       ctaSecondary: "查看真实案例",
       slides: [
@@ -1309,25 +1309,25 @@ window.BAMBOO_I18N = {
         { year: "2015", tag: "独立站", title: "自运营家具品类 DTC 独立站", desc: "拓展高客单价家居与家具 DTC 独立站，沉淀品牌溢价与重货履约能力。" },
         { year: "2016", tag: "北美布局", title: "成立加拿大分公司", desc: "设立北美实体，夯实本土仓储物流与北美消费市场洞察。" },
         { year: "2017", tag: "4000万美金", title: "自营年营收 4,000 万美金 · 启动代运营", desc: "自营电商年营收突破 4,000 万美金，正式对外开放品牌全链路代运营服务。" },
-        { year: "2018", tag: "全球枢纽", title: "建立亚太品牌策略与选品中台", desc: "拓展国际品牌策略与商品企划能力，高效链接全球优质供应链与欧美消费市场。" },
-        { year: "2019", tag: "全球媒体", title: "拓展国际主流媒体合作", desc: "建立全球信息流与搜索媒体合作网络，构建数据驱动的增长体系。" },
-        { year: "2020", tag: "抢滩 TikTok", title: "重组国际架构 · 启动 TikTok 自营", desc: "整合全球业务架构，率先布局 TikTok 商业化自营业务，抢占社交电商先机。" },
-        { year: "2021", tag: "服务升级", title: "正式启动 TikTok 品牌服务", desc: "将自营跑通的爆品打法产品化，为全球品牌提供专业 TikTok 运营与增长服务。" },
-        { year: "2022", tag: "生态闭环", title: "构建 TSP · TAP · MCN 全链路能力", desc: "打通小店代运营、达人分销与红人孵化全链路生态服务能力。" },
-        { year: "2023", tag: "顶级资质", title: "升级平台一级生态合作伙伴", desc: "跃升 TikTok、Google、Kwai 官方核心合作伙伴，实现深度数据与资源协同。" },
+        { year: "2018", tag: "业务拓展", title: "成立北美品牌策略与选品事业部", desc: "在北美扩充品牌策略、创意指导与商品企划团队，赋能高成长 DTC 消费品牌。" },
+        { year: "2019", tag: "数字媒体", title: "建立主流数字媒体官方合作", desc: "与北美头部社交及搜索媒体建立深度合作，构建数据驱动的增长体系。" },
+        { year: "2020", tag: "抢滩 TikTok", title: "启动 TikTok 商业化自营业务", desc: "率先在北美布局 TikTok 社交电商自营业务，抢占内容电商先机。" },
+        { year: "2021", tag: "服务升级", title: "正式启动 TikTok 品牌增长服务", desc: "将自营跑通的爆品打法产品化，为品牌提供专业 TikTok 运营与增长服务。" },
+        { year: "2022", tag: "生态闭环", title: "构建 TSP · TAP · MCN 全链路能力", desc: "打通店铺运营、达人分销与红人孵化全链路生态服务能力。" },
+        { year: "2023", tag: "顶级资质", title: "升级平台一级生态合作伙伴", desc: "跃升 TikTok、Google、Meta 核心合作伙伴，实现深度数据与资源协同。" },
         { year: "2024", tag: "洛杉矶基地", title: "洛杉矶样品中心与本土直播基地落地", desc: "洛杉矶比弗利 500+ 平米样品展厅与本土直播基地正式投运，实现全美本土化交付。" }
       ]
     },
     services: {
       eyebrow: "核心业务板块",
       title: "一站式社交电商增长方案",
-      subtitle: "聚焦三大核心业务：TikTok 店铺与账号代运营、万级海外达人营销网络、以及洛杉矶比弗利本土直播基地。",
+      subtitle: "聚焦三大核心业务：TikTok 店铺与账号托管运营、万级北美达人营销网络、以及洛杉矶比弗利本土直播基地。",
       tabs: [
         {
           id: "shop",
           num: "01",
-          short: "店铺 / 账号代运营",
-          title: "专业 TikTok 小店与品牌号代运营",
+          short: "店铺与账号运营",
+          title: "专业 TikTok Shop 与品牌号全托管运营",
           lead: "资深运营团队负责美国本土合规开店、商品基建优化、垂直短视频持续更新与 7×24 小时多语种客服售后。",
           bullets: [
             "美国本土公司合规注册、TikTok 小店入驻及物流支付全流程对接",
@@ -1347,14 +1347,14 @@ window.BAMBOO_I18N = {
           num: "02",
           short: "达人营销资源",
           title: "海量 KOL / KOC 达人种草与变现",
-          lead: "坐拥 10,000+ 海外红人达人资源，通过科学种拔度量与本土团队把控，打造高转化原生带货内容。",
+          lead: "坐拥 10,000+ 北美红人达人资源，通过科学种拔度量与本土团队把控，打造高转化原生带货内容。",
           bullets: [
             "联动 200+ 精选 TikTok 达人，单月稳定产出 200+ 条原生带货视频",
             "支持定制 1000 万 / 2800 万 / 6000 万粉丝覆盖保障的头部曝光套餐",
             "成熟商达建联漏斗与样品追踪闭环，确保符合北美消费审美的真实演绎"
           ],
           statVal: "10K+",
-          statLabel: "海外多层次红人达人库",
+          statLabel: "北美多层次红人达人库",
           gallery: [
             { img: "assets/images/case-footwear-hooks.jpg", cap: "北美本土模特与达人高转化短视频" },
             { img: "assets/images/portfolio-vgo.jpg", cap: "美妆达人种草矩阵 · 1000万曝光" },
@@ -1369,7 +1369,7 @@ window.BAMBOO_I18N = {
           lead: "500+ 平米实体直播基地，配备英/西/法多语种本土主播与多主题实景直播间，每日稳定开播 15+ 场。",
           bullets: [
             "500+ 平米洛杉矶基地，日均直播 15+ 场、日均成交额超 $8,000",
-            "内部直播培训学院系统培养英、西、法多语种欧美本土带货主播",
+            "内部直播培训学院系统培养英、西、法多语种北美本土带货主播",
             "厨房、客厅家居、仓储等多主题实景切换 + 精细化单场复盘迭代"
           ],
           statVal: "15+ 场",
@@ -1483,7 +1483,7 @@ window.BAMBOO_I18N = {
           category: "家居家具 · 北美 TikTok 小店",
           brand: "Erommy 家居品牌",
           headline: "平均 ROAS 5.2 · 单场 2 小时直播 GMV $11,906",
-          summary: "服务实力家居品牌，提供“美国外模素材拍摄 + 增长投放 + 洛杉矶本土直播”组合拳，高效打通高客单价家具 TikTok 增长闭环。",
+          summary: "服务实力家居品牌，提供“北美本土视频拍摄 + 增长投放 + 洛杉矶本土直播”组合拳，高效打通高客单价家具 TikTok 增长闭环。",
           metrics: [
             { val: "5.2×", label: "1.5个月平均 ROAS" },
             { val: "$11,906", label: "单场2小时直播GMV" },
@@ -1491,10 +1491,10 @@ window.BAMBOO_I18N = {
           ],
           img: "assets/images/case-erommy-video.jpg",
           modal: {
-            scope: "外模素材拍摄 · 增长运营 · 美国本土直播",
+            scope: "北美实景视频拍摄 · 增长运营 · 洛杉矶本土直播",
             challenge: "品牌拥有成熟电商经验及自建店铺运营团队，但在 TikTok 北美本土素材制作及英语母语大件家具直播间转化方面需要专业团队赋能。",
             execution: [
-              "产品素材脚本拍摄：从场景布置、外模衣着筛选到分镜运镜全流程定制，真实演绎三合一沙发床与手工编织盘腿椅核心功能差异。",
+              "产品素材脚本拍摄：从场景布置、北美模特筛选到分镜运镜全流程定制，真实演绎三合一沙发床与手工编织盘腿椅核心功能差异。",
               "精细化增长优化：1.5 个月周期通过高频素材测试与数据复盘实现 5.2 的优异平均 ROAS。",
               "洛杉矶本土实景直播：搭建温馨浅色系客厅场景，搭配敏捷年轻女主播现场演示生活场景并叠加免运费促单，单场 2 小时斩获 12,900 场观、9 笔高客单价成交、$11,906 美金 GMV 及 47 位新增粉丝。"
             ],
@@ -1506,7 +1506,7 @@ window.BAMBOO_I18N = {
           category: "时尚女鞋 · 亚马逊大卖拓展 TikTok",
           brand: "知名亚马逊女士凉鞋品牌",
           headline: "零基础切入应季赛道 · 全链路极速起量",
-          summary: "助力头部亚马逊女鞋品牌从 0 切入北美 TikTok Shop，通过店铺与账号全托管、外模爆款钩子拍摄与多轮达人 BD，大幅缩短季节性产品起量周期。",
+          summary: "助力头部亚马逊女鞋品牌从 0 切入北美 TikTok Shop，通过店铺与账号全托管、北美模特爆款钩子拍摄与多轮达人 BD，大幅缩短季节性产品起量周期。",
           metrics: [
             { val: "0 → 1", label: "全链路冷启动破局" },
             { val: "30条/周", label: "峰值素材迭代速度" },
@@ -1514,11 +1514,11 @@ window.BAMBOO_I18N = {
           ],
           img: "assets/images/case-footwear-hooks.jpg",
           modal: {
-            scope: "店铺与TT号代运营 · 外模视频拍摄 · 达人建联",
+            scope: "店铺与账号托管 · 北美视频拍摄 · 达人建联",
             challenge: "面对竞争激烈的夏季女鞋窗口期，品牌在 TikTok 零基础起步，必须在有限应季周期内迅速渗透北美女性受众、实现销量爆发。",
             execution: [
               "数据调研与店铺基建：结合历史销售数据与 TikTok 大盘验证产品卖点，完成小店装修、物流支付对接及官方账号高频日更互动。",
-              "外模高转化钩子素材：精准筛选北美模特，打造痛点反问与悬念型黄金三秒短视频，显著拉升点击与完播表现。",
+              "高转化钩子素材：精准筛选北美模特，打造痛点反问与悬念型黄金三秒短视频，显著拉升点击与完播表现。",
               "达人漏斗闭环：多轮 BD 建联与样品追踪形成闭环，同步分阶段放量实现稳步爆发。"
             ],
             secondaryImg: "assets/images/host-studio-portrait.jpg"
@@ -1613,7 +1613,7 @@ window.BAMBOO_I18N = {
           chips: [3],
           features: [
             "美国本土公司注册 + TikTok Shop 开店与全流程运营托管",
-            "600+ 海外红人达人内容素材库规模化产出",
+            "600+ 北美红人达人内容素材库规模化产出",
             "覆盖 3000 万+ 粉丝量级的头部达人联合曝光",
             "产品入驻洛杉矶比弗利线下 Sample Center 供达人实景体验",
             "无缝整合美国本土实景直播与全链路规模化增长"
@@ -1645,7 +1645,7 @@ window.BAMBOO_I18N = {
         market: "目标市场",
         markets: ["美国市场 (TikTok Shop US)", "英国市场", "欧洲与全球市场", "多区域布局"],
         servicesLabel: "意向合作服务（可多选）",
-        services: ["店铺 / 账号代运营", "海外达人建联", "美国本土直播", "0-1 全链路全包", "洛杉矶样品中心"],
+        services: ["店铺与账号运营", "北美达人建联", "美国本土直播", "0-1 全链路全包", "洛杉矶样品中心"],
         message: "简要介绍您的产品类目与增长目标",
         messagePh: "可分享产品品类、当前月销规模或计划启动时间...",
         submit: "提交合作咨询",
